@@ -14,4 +14,7 @@ target 'interop-plugin-spm' do
 
     pod 'interop-plugin-spm', :path => './'
     spm_pkg 'NetworkMonitor', :url => 'https://github.com/Farfetch/network-monitor-ios.git', :version => '12.1.0'
+
+    target 'interop-plugin-spmTests' do
+    end
 end
